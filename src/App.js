@@ -66,6 +66,7 @@ function App() {
       })
       .catch(function (error) {
         console.log(error);
+        navigate('/fail');
       });
       
     }
